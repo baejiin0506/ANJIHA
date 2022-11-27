@@ -2,11 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  var aa = '222222221'
+  let posts = '강남 고기 맛집';
   return (
     <div className="App">
-      <div className="black-nav">
-      {aa}
+      <div className="black-nav">개발 blog</div>
+      <div className="list">
+        <h3>{ posts }</h3>
+        <p>2월 17일 발행</p>
+        <hr/>
       </div>
     </div>
   );
